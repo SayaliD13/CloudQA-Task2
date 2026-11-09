@@ -56,7 +56,6 @@ CloudQA-Task2/
 ├── screenshots/
 │
 ├── requirements.txt
-├── .env.example
 ├── .gitignore
 ├── README.md
 ├── APPROACH_AND_LIMITATIONS.md
@@ -109,11 +108,10 @@ python -m playwright install chromium
 
 ### 5. Configure the Gemini API key
 
-Make a copy of `.env.example` and name the copy `.env`.
+Create a file named .env in the project folder.
 
-Add your own valid Gemini API key and the model settings:
+Add your Gemini API key and model settings:
 
-```env
 GEMINI_API_KEY=your_real_api_key_here
 GEMINI_MODEL=gemini-3.5-flash-lite
 GEMINI_FALLBACK_MODELS=gemini-3.7-flash,gemini-3.8-flash
