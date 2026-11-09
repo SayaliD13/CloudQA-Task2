@@ -1,0 +1,11 @@
+PHPTravels demo example:
+Open the PHPTravels demo page and verify that the page title contains PHPTRAVELS.
+
+General website example:
+Open the website and verify that the page title contains Example Domain
+and that the text Example Domain is visible.
+
+Login example:
+Open the login page, enter the provided email and password, click the Login
+button, and verify that the dashboard heading is visible.
+Use only test accounts and provide credentials through a secure test setup.
